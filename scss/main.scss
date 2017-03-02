@@ -1,0 +1,9 @@
+@import "import/variables";
+@import "import/mixins";
+body{
+    background: $main-color;
+}
+@import "import/views/xs";
+@import "import/views/sm";
+@import "import/views/md";
+@import "import/views/lg";

@@ -1,0 +1,38 @@
+body {
+  background: white; }
+
+@media screen and (max-width: 576px) {
+  body {
+    padding: 0; }
+    body .landPage {
+      padding: 0; }
+      body .landPage .navbar {
+        margin: 0;
+        background: white;
+        height: 10vh; }
+      body .landPage .showcase {
+        background: yellow;
+        height: 90vh; }
+    body .reason {
+      height: 80vh;
+      background: white; }
+    body .video {
+      height: 80vh;
+      background: yellow; }
+    body .services {
+      height: 80vh;
+      background: white; }
+    body .services2 {
+      height: 80vh;
+      background: yellow; } }
+@media screen and (min-width: 577px) and (max-width: 767px) {
+  body .landPage {
+    background: red; } }
+@media screen and (min-width: 768px) and (max-width: 991px) {
+  body .landPage {
+    background: yellow; } }
+@media screen and (min-width: 992px) {
+  body .landPage {
+    background: green; } }
+
+/*# sourceMappingURL=main.css.map */
